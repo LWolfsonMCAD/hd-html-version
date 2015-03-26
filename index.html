@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>High Dramma</title>
+	<link type="text/css" rel="stylesheet" href="css/normalize.css">
+	<link type="text/css" rel="stylesheet" href="css/main.css">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+	<header class="masthead">	
+		<div class="masthead-logo">
+			<a href="index.html"><img src="images/hd-logo-200x208.png" alt="High Dramma Logo"></a>
+		</div>
+
+		<nav id="main-nav">
+			<ul>
+			<!-- This menu will be at the top of the site, 
+			and will eventually have a subnav menu below several items
+			when enough content has been generated. For now, will have
+			sections on each page to cover subnav items. -->
+				<li><a href="#">Shows</a></li> 
+				<li><a href="#">Sketches</a></li>
+				<li><a href="#">Meet The Group</a></li>
+				<li><a href="#">About HD</a></li>
+			</ul>
+		</nav>
+
+		<nav id="social-nav">
+			<ul>
+			<!-- Could end up moving these down to the footer.
+			Will replace names of social media sites with icons.
+			Will create a separate menu in WP. -->
+				<li><a href="#">Facebook</a></li> 
+				<li><a href="#">Twitter</a></li>
+				<li><a href="#">YouTube</a></li>
+			</ul>
+		</nav>	
+	</header>
+
+	<section class="introduction">
+	<!-- Short blurb that probably won't change very often, that quickly explains 
+	what High Dramma is/does. Could be likened to a site description 
+	(which might be how it's set up in WP). -->
+		<h2>What is High Dramma?!</h2>
+
+		<p>High Dramma is a team of actors/writers/comedians who have banded together in order to bring you the finest independent sketch comedy in the world (well, at least in Philadelphia).</p>
+
+		<p>So come on down and check us out! You can be sure to get a laugh...or two, because we take comedy so seriously, it's not even funny.</p>
+	</section>
+
+
+	<section class="featured">
+	<!-- The content in this area will be changing regularly.
+	It will include a featured image (use either "Hero Image" custom field 
+	or the "featured image"/thumbnail in WP), a title, and text area. 
+	It needs to be easy to update it, and the content may be pulled at a 
+	later date to other pages. -->
+
+		<img src="images/mandudebro-and-hd.jpg" alt="ManDudeBro and High Dramma photo"><!-- Create "Hero Image" custom field, or use thumbnail/featured image. -->
+
+		<header>
+		<h1 class="featured-title">Mark Your Hopefully Unmarked Calendars</h1>
+		</header>
+
+		<p>High Dramma is returning to the Lehigh Valley THIS Saturday at 9pm for a Steelstacks show with hte fine young men of ManDudeBro!</p>
+	</section>
+
+
+	<section class="social-media-feeds">
+	<!-- Social Media Feed section shows the latest news/info from High Dramma. 
+	They are more likely to update their Facebook and Twitter accounts more often, 
+	along with producing new videos, so this will keep the homepage fresh. -->
+
+		<h2>High Dramma's Social Media Goings-on</h2><!-- This will be hidden, except from screen readers. -->
+
+		<article class="latest-video">
+			<h3>High Dramma's latest video</h3>
+
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/Ri0Rk_j6ezk" allowfullscreen>
+				<!-- Option to use a video plugin when this moves to WP. 
+				Will have to resize using CSS and might opt to have a 
+				popup/overlay for the video to play in when selected. 
+				Will use PHP to pull this information/video in from the "Videos" page.-->
+			</iframe>
+		</article>
+
+		<article class="facebook-feed">
+			<h3>Check HD out on Facebook</h3>
+			<iframe>
+				<!-- Will insert the embed code for the HD FB news feed, 
+				to show the last 3 things posted by HD. Eventually will use 
+				the FB Page Plugin to get the information to display. -->
+			</iframe>
+		</article>
+
+		<article class="twitter-feed">
+			<h3>Follow HD on Twitter</h3>
+
+			<iframe>
+				<!-- Will insert the embed code for the HD Twitter feed, 
+				to show the last 3 things tweeted by HD. -->
+			</iframe>
+		</article>
+	</section>
+
+	<footer>
+		<!-- Currently there's no information here, 
+		but most likely there will be a copyright at least. -->
+	</footer>
+
+</body>
+</html>
